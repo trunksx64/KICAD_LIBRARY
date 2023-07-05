@@ -45,9 +45,9 @@
     (thermal_bridge_angle 45) (tstamp 8cb3943c-650f-46a0-8645-81c8b47c8638))
   (pad "2" smd roundrect (at 1.7 0) (size 1.5 4.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 4e6049af-3e7f-4c64-a4bb-a143bb000c86))
-  (model ":KICAD7_3DMODEL_DIR:x_Fuses.3dshapes/MF-SMDF200.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/x_Fuses.3dshapes/MF-SMDF200.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 0.9 0.9 0.9))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
 )

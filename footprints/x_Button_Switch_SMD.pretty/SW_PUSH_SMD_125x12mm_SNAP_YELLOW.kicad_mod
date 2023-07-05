@@ -62,7 +62,7 @@
       77b168be-6fd0-4d26-a8dc-cb92c07f89d8
     )
   )
-  (model "${KISYS3DMOD}/x_Button_Switch_SMD.3dshapes/SW_PUSH_SMD_125x12mm_SNAP_YELLOW.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/x_Button_Switch_SMD.3dshapes/SW_PUSH_SMD_125x12mm_SNAP_YELLOW.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
