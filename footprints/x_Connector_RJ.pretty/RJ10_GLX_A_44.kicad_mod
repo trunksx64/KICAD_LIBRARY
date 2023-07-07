@@ -1,4 +1,4 @@
-(footprint "RJ10_GLX-A-44" (version 20221018) (generator pcbnew)
+(footprint "RJ10_GLX_A_44" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "https://www.kycon.com/Catalog_PDF/GLX.pdf")
   (tags "RJ10 connector")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a65542a3-2caa-4b36-9840-73641740309a)
   )
-  (fp_text value "RJ10_GLX-A-44" (at 0 10.68) (layer "F.Fab")
+  (fp_text value "RJ10_GLX_A_44" (at 0 10.68) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 96de7441-e6f8-464c-9244-5738084c7e82)
   )
@@ -49,9 +49,9 @@
   (pad "2" thru_hole circle (at -0.51 4.84) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp c410741a-389a-4230-aa95-1b88654e7d25))
   (pad "3" thru_hole circle (at 0.51 2.3) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fee3c4d5-ce90-429c-b509-11896cfa456b))
   (pad "4" thru_hole circle (at 1.53 4.84) (size 1.7 1.7) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 4da5984b-fdff-4189-83c9-3fdb5c29f601))
-  (model "${KICAD7_3DMODEL_DIR}/x_Connector_RJ.3dshapes/RJ10_GLX-A-44.wrl"
-    (offset (xyz 0 -0.5 0))
-    (scale (xyz 1.2 1.1 1.1))
-    (rotate (xyz 0 0 180))
+  (model "${KICAD7_3DMODEL_DIR}/x_Connector_RJ.3dshapes/RJ10_GLX_A_44.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

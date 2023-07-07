@@ -1,4 +1,4 @@
-(footprint "Crystal_SMD_Abracon_ABS25-4Pin_8.0x3.8mm" (version 20221018) (generator pcbnew)
+(footprint "Crystal_SMD_ABS25_4Pin_8.0x3.8mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Abracon Miniature Ceramic SMD Crystal ABS25 https://abracon.com/Resonators/abs25.pdf, 8.0x3.8mm^2 package")
   (tags "SMD SMT crystal")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp caf08427-d8d6-4b18-b601-762874096fbc)
   )
-  (fp_text value "Crystal_SMD_ABS25-4Pin_8.0x3.8mm" (at 0 5.08) (layer "F.Fab")
+  (fp_text value "Crystal_SMD_ABS25_4Pin_8.0x3.8mm" (at 0 5.08) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ab48ec0c-ddff-4993-9826-9b7727eb4d39)
   )
@@ -57,9 +57,9 @@
   (pad "2" smd rect (at -1.6 2.75 270) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0e667814-ff0a-4cb6-b377-75aabfecb14a))
   (pad "3" smd rect (at 1.6 2.75 270) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4867fbc4-810e-474b-961a-33af800bb0b7))
   (pad "4" smd rect (at 1.6 -2.75 270) (size 1.3 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0cbd243e-62c2-43ac-b460-c9e9291f756b))
-  (model "${KICAD7_3DMODEL_DIR}/x_Crystal.3dshapes/Crystal_SMD_ABS25-4Pin_8.0x3.8mm.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/x_Crystal.3dshapes/Crystal_SMD_ABS25_4Pin_8.0x3.8mm.wrl"
     (offset (xyz 0 0 0))
-    (scale (xyz 0.55 0.95 0.55))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
 )
