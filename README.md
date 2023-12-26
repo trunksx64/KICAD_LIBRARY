@@ -1,6 +1,6 @@
 # KICAD Library
 
-![](https://github.com/trunksx64/KICAD_LIBRARY/blob/main/images/Front.png)
+![](https://github.com/trunksx64/KICAD_LIBRARY/blob/master/images/Front.png)
 
 Librerias para KiCAD por xDNA Electronics &amp; Design
 
@@ -22,6 +22,6 @@ xDNA Electronics & Desing es una microempresa Personal, que se dedica y encarga 
 
 # Licencia
 
-![](https://github.com/trunksx64/KICAD_LIBRARY/blob/main/images/BY-SA.png)
+![](https://github.com/trunksx64/KICAD_LIBRARY/blob/master/images/BY-SA.png)
 
 Licensed under Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
