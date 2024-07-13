@@ -3,9 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=11.5mm, Supercapacitor, http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/dx_e.pdf")
-	(tags "CP Radial series Radial pin pitch 5.00mm diameter 11.5mm supercapacitor")
-	(property "Reference" "C26"
+	(tags "Supercapacitor Pitch 5.00mm Diameter 11.5mm")
+	(property "Reference" "REF**"
 		(at 4.191 -1.7903 0)
 		(layer "F.SilkS")
 		(uuid "3a5728a2-d660-432b-95b6-26fcb5293cea")
