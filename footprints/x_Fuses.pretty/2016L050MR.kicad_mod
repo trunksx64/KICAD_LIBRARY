@@ -1,0 +1,213 @@
+(footprint "2016L050MR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Polymeric PTC Resettable Fuse 60V 550 mA Ih Surface Mount 2016 (5041 Metric), Concave")
+	(property "Reference" "REF**"
+		(at -0.275 -4.185 0)
+		(layer "F.SilkS")
+		(uuid "7a47664c-7074-43f3-88eb-7d06106bda79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2016L050MR"
+		(at 0 4.185 0)
+		(layer "F.Fab")
+		(uuid "4190f58e-e57a-453a-9c4c-518521090bdc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd2099ff-9302-4358-b2da-74b9e57647f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d895beee-6e48-4f60-88f8-b80ba5948a49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8608a43b-b0c8-47c4-be17-16369ebd31af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.38 -2.032)
+		(end 1.38 -2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "799981f0-0ee4-4e78-9170-e9f952d95a4e")
+	)
+	(fp_line
+		(start -1.38 2.032)
+		(end 1.38 2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f050861d-8475-4eb1-b6b1-4059878fa5f7")
+	)
+	(fp_circle
+		(center -4.2 0)
+		(end -4.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1f90058a-fb3d-451a-9b9d-52b056275f6c")
+	)
+	(fp_line
+		(start -3.45 -2.55)
+		(end -3.45 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "feaaf4f6-64d2-418d-ad47-169861b823a5")
+	)
+	(fp_line
+		(start -3.45 2.55)
+		(end 3.45 2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43ab0b6d-787a-43b3-8a5e-a34c6f710505")
+	)
+	(fp_line
+		(start 3.45 -2.55)
+		(end -3.45 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12c0c052-d8e0-4761-b839-4f2702e56e55")
+	)
+	(fp_line
+		(start 3.45 2.55)
+		(end 3.45 -2.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "415903b2-82ca-4e65-8066-d8f1105adc08")
+	)
+	(fp_line
+		(start -2.54 2.032)
+		(end -2.54 -2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b788646-bfd0-4e5f-a7f6-b4f0a3c8a86d")
+	)
+	(fp_line
+		(start 2.54 -2.032)
+		(end -2.54 -2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e6a9c51-d008-472e-9d82-52117dceba61")
+	)
+	(fp_line
+		(start 2.54 2.032)
+		(end -2.54 2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9abf5d14-322a-4ca5-990e-c2b34f7e77c4")
+	)
+	(fp_line
+		(start 2.54 2.032)
+		(end 2.54 -2.032)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c451e231-cb93-42e8-8f29-4c0845a7cb54")
+	)
+	(fp_circle
+		(center -4.2 0)
+		(end -4.1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "49c1fc82-21b6-4c9e-9d29-9c63aa465b61")
+	)
+	(pad "1" smd rect
+		(at -2.45 0)
+		(size 1.5 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8846bfb6-3583-4173-82e8-266620165ade")
+	)
+	(pad "2" smd rect
+		(at 2.45 0)
+		(size 1.5 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "6d233201-7754-4f6c-bd15-12718655ad8e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/x_Fuses.3dshapes/1812L110.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.2 1 1.2)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

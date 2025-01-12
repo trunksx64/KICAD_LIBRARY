@@ -1,0 +1,308 @@
+(footprint "1812L110"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Polymeric PTC Resettable Fuse 24V 1.1 A Ih Surface Mount 1812 (4532 Metric), Concave")
+	(property "Reference" "REF**"
+		(at -0.72616 -2.83951 0)
+		(layer "F.SilkS")
+		(uuid "a61bb8e7-d665-41eb-8923-abbd794ad72d")
+		(effects
+			(font
+				(size 1.001591 1.001591)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1812L110"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "7b8f25cf-5418-4613-b7c5-67e8c9a2bbfc")
+		(effects
+			(font
+				(size 1.002638 1.002638)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a248e38-7621-4fee-9f3b-3553b5261d0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46f19894-a2e0-4844-95c4-414d29899211")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2894e61-5c14-40b3-aa1a-7d1f85aa705b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.1 -1.6)
+		(end 1.1 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8fe0492-a686-46a9-9f4c-2c2e70e63707")
+	)
+	(fp_line
+		(start 1.1 1.6)
+		(end -1.1 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45d2281f-bfb1-4db6-8afd-9c27e94a1eb8")
+	)
+	(fp_circle
+		(center -3.6 -1.9)
+		(end -3.473 -1.9)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "68b5e2b5-d416-466d-8ba3-ff99fc2362ae")
+	)
+	(fp_line
+		(start -3.85 -2.1)
+		(end -3.85 2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9729f68a-877f-492b-89bd-3f70c5773219")
+	)
+	(fp_line
+		(start -3.85 2.1)
+		(end 3.85 2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ed7347f8-dab4-43a2-a305-4037f1243e7a")
+	)
+	(fp_line
+		(start 3.85 -2.1)
+		(end -3.85 -2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3e4661be-cade-44c5-b468-e9c3403f10bc")
+	)
+	(fp_line
+		(start 3.85 2.1)
+		(end 3.85 -2.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6b1d0810-11fd-478f-b60b-53a15e7f100a")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end -2.25 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ece2184-4b67-4761-b600-39f1336599e2")
+	)
+	(fp_line
+		(start -2.25 -1.6)
+		(end -1.1 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0d3dd53b-f2ff-462c-9f79-63bbdab2369d")
+	)
+	(fp_line
+		(start -2.25 1.6)
+		(end -2.25 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35d02456-d51b-4908-99a7-448c772fa1f5")
+	)
+	(fp_line
+		(start -1.1 1.6)
+		(end -2.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cd85b4a-ceaf-4764-9188-62b5f09c112a")
+	)
+	(fp_line
+		(start 1.1 -1.6)
+		(end 2.35 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9736aae-3327-420c-a892-40f9c2a65cef")
+	)
+	(fp_line
+		(start 2.35 -1.6)
+		(end 2.35 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d792b58-06ba-4bdd-9074-c2f2824bee2e")
+	)
+	(fp_line
+		(start 2.35 0.5)
+		(end 2.35 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b894d0e-5a41-4466-8409-f1bbe29d6abc")
+	)
+	(fp_line
+		(start 2.35 1.6)
+		(end 1.1 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "654909c4-950c-44a2-84b7-7b75f035b3be")
+	)
+	(fp_arc
+		(start -2.25 -0.5)
+		(mid -1.75 0)
+		(end -2.25 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b7e942a-4c65-4b82-9c46-f57eaaaa0c63")
+	)
+	(fp_arc
+		(start 2.35 0.5)
+		(mid 1.85 0)
+		(end 2.35 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dc84c7f7-5f81-4856-b59d-5397c55bda6e")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -1.6) (xy -2.25 -1.6) (xy -2.25 -0.5) (xy -2.224 -0.499) (xy -2.198 -0.497) (xy -2.172 -0.494)
+			(xy -2.146 -0.489) (xy -2.121 -0.483) (xy -2.095 -0.476) (xy -2.071 -0.467) (xy -2.047 -0.457) (xy -2.023 -0.446)
+			(xy -2 -0.433) (xy -1.978 -0.419) (xy -1.956 -0.405) (xy -1.935 -0.389) (xy -1.915 -0.372) (xy -1.896 -0.354)
+			(xy -1.878 -0.335) (xy -1.861 -0.315) (xy -1.845 -0.294) (xy -1.831 -0.272) (xy -1.817 -0.25) (xy -1.804 -0.227)
+			(xy -1.793 -0.203) (xy -1.783 -0.179) (xy -1.774 -0.155) (xy -1.767 -0.129) (xy -1.761 -0.104) (xy -1.756 -0.078)
+			(xy -1.753 -0.052) (xy -1.751 -0.026) (xy -1.75 0) (xy -1.751 0.026) (xy -1.753 0.052) (xy -1.756 0.078)
+			(xy -1.761 0.104) (xy -1.767 0.129) (xy -1.774 0.155) (xy -1.783 0.179) (xy -1.793 0.203) (xy -1.804 0.227)
+			(xy -1.817 0.25) (xy -1.831 0.272) (xy -1.845 0.294) (xy -1.861 0.315) (xy -1.878 0.335) (xy -1.896 0.354)
+			(xy -1.915 0.372) (xy -1.935 0.389) (xy -1.956 0.405) (xy -1.978 0.419) (xy -2 0.433) (xy -2.023 0.446)
+			(xy -2.047 0.457) (xy -2.071 0.467) (xy -2.095 0.476) (xy -2.121 0.483) (xy -2.146 0.489) (xy -2.172 0.494)
+			(xy -2.198 0.497) (xy -2.224 0.499) (xy -2.25 0.5) (xy -2.25 1.6) (xy -1.5 1.6) (xy -1.5 -1.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "4f364be5-a6b5-4791-a37e-361435d4dc6f")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 -1.6) (xy 1.5 1.6) (xy 2.35 1.6) (xy 2.35 0.5) (xy 2.324 0.499) (xy 2.298 0.497) (xy 2.272 0.494)
+			(xy 2.246 0.489) (xy 2.221 0.483) (xy 2.195 0.476) (xy 2.171 0.467) (xy 2.147 0.457) (xy 2.123 0.446)
+			(xy 2.1 0.433) (xy 2.078 0.419) (xy 2.056 0.405) (xy 2.035 0.389) (xy 2.015 0.372) (xy 1.996 0.354)
+			(xy 1.978 0.335) (xy 1.961 0.315) (xy 1.945 0.294) (xy 1.931 0.272) (xy 1.917 0.25) (xy 1.904 0.227)
+			(xy 1.893 0.203) (xy 1.883 0.179) (xy 1.874 0.155) (xy 1.867 0.129) (xy 1.861 0.104) (xy 1.856 0.078)
+			(xy 1.853 0.052) (xy 1.851 0.026) (xy 1.85 0) (xy 1.851 -0.026) (xy 1.853 -0.052) (xy 1.856 -0.078)
+			(xy 1.861 -0.104) (xy 1.867 -0.129) (xy 1.874 -0.155) (xy 1.883 -0.179) (xy 1.893 -0.203) (xy 1.904 -0.227)
+			(xy 1.917 -0.25) (xy 1.931 -0.272) (xy 1.945 -0.294) (xy 1.961 -0.315) (xy 1.978 -0.335) (xy 1.996 -0.354)
+			(xy 2.015 -0.372) (xy 2.035 -0.389) (xy 2.056 -0.405) (xy 2.078 -0.419) (xy 2.1 -0.433) (xy 2.123 -0.446)
+			(xy 2.147 -0.457) (xy 2.171 -0.467) (xy 2.195 -0.476) (xy 2.221 -0.483) (xy 2.246 -0.489) (xy 2.272 -0.494)
+			(xy 2.298 -0.497) (xy 2.324 -0.499) (xy 2.35 -0.5) (xy 2.35 -1.6) (xy 1.5 -1.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "16262c66-fa38-49e0-81e1-58a31a29c50b")
+	)
+	(pad "1" smd rect
+		(at -2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "c1ed7ee7-d322-40e6-8915-e0bbac735097")
+	)
+	(pad "2" smd rect
+		(at 2.615 0)
+		(size 1.78 3.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "2a6e4abc-89a6-43b2-b87b-2295a248344a")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/x_Fuses.3dshapes/1812L110.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
