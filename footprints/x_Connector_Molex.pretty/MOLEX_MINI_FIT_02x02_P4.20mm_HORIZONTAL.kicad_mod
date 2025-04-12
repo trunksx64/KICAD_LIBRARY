@@ -1,0 +1,269 @@
+(footprint "MOLEX_MINI_FIT_02x02_P4.20mm_HORIZONTAL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN HEADER R/A 4POS 4.2MM")
+	(property "Reference" "REF**"
+		(at -4.325 -8.635 0)
+		(layer "F.SilkS")
+		(uuid "28169fcf-410b-445d-80ae-c8814aea77aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0026013115"
+		(at -2.5 12.5 0)
+		(layer "F.SilkS")
+		(uuid "bda57ad4-2c2e-4fa8-bf13-3fda51938277")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/26013115?display=pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65c8b2a4-9bee-4e8c-b2aa-e07257f1a4c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HEADER R/A 4POS 4.2MM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9db32701-9949-46d5-aa1c-baa9bf982acc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.9 1.1)
+		(end -6.9 13.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ee9dccf-7071-4313-80a6-9699e293a20d")
+	)
+	(fp_line
+		(start -6.9 13.9)
+		(end 2.7 13.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5003fe73-e31d-4719-9418-816fa55feba8")
+	)
+	(fp_line
+		(start -5.91 1.1)
+		(end -6.9 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9b4de6c-0c1a-4823-b8ef-2c26fc2f88a2")
+	)
+	(fp_line
+		(start 1.976 -0.135)
+		(end 3.5 -0.77)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d46d1634-1fbb-48c2-8e5d-1b75ea3515bd")
+	)
+	(fp_line
+		(start 2.7 1.1)
+		(end 1.71 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98e06dc8-bbd5-4430-a60b-f564e9cab24c")
+	)
+	(fp_line
+		(start 2.7 13.9)
+		(end 2.7 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6675ecf8-cb29-4172-a834-592cccf88e96")
+	)
+	(fp_line
+		(start 3.5 -0.77)
+		(end 3.5 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2d07455-4b10-447e-8c89-d480fbc7d858")
+	)
+	(fp_line
+		(start 3.5 0.5)
+		(end 1.976 -0.135)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "32c26897-7235-4d10-b0db-961fe58b2101")
+	)
+	(fp_line
+		(start -7.15 -7.14)
+		(end 2.95 -7.14)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59b36506-dca9-4839-a2f9-2c34de524dfa")
+	)
+	(fp_line
+		(start -7.15 14.15)
+		(end -7.15 -7.14)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "119db080-adaa-4f71-9821-b836b3f31baf")
+	)
+	(fp_line
+		(start 2.95 -7.14)
+		(end 2.95 14.15)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "763b082a-f3c2-485a-a5bb-0e49684c22b1")
+	)
+	(fp_line
+		(start 2.95 14.15)
+		(end -7.15 14.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4c4d115-bb30-4412-9db9-a962cb2f6eeb")
+	)
+	(fp_line
+		(start -6.9 1.1)
+		(end 2.7 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "785ccfdb-d555-4d47-bbc5-e17cd723db93")
+	)
+	(fp_line
+		(start -6.9 13.9)
+		(end -6.9 1.1)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e99f5cff-35eb-4f6a-9915-afe819f7fc43")
+	)
+	(fp_line
+		(start 2.7 1.1)
+		(end 2.7 13.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e633fedf-523f-4e22-9095-43e4f0a4f394")
+	)
+	(fp_line
+		(start 2.7 13.9)
+		(end -6.9 13.9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9eddc468-5949-4c70-84a9-3f596545bf1c")
+	)
+	(pad "" np_thru_hole circle
+		(at -2.1 7.3)
+		(size 3.05 3.05)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a977f417-2e26-48b2-8d2c-a6376fdd97b0")
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.048 3.048)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(uuid "358c88f5-24e7-418e-a7de-082b39e200d9")
+	)
+	(pad "2" thru_hole circle
+		(at -4.2 0)
+		(size 3.048 3.048)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(uuid "498728df-27b0-45b7-a0e8-744c62158722")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -5.5)
+		(size 3.048 3.048)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(uuid "3f4e4738-4b2a-4753-99a1-deb7a1e360ac")
+	)
+	(pad "4" thru_hole circle
+		(at -4.2 -5.5)
+		(size 3.048 3.048)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0762)
+		(uuid "06b85540-67b5-444d-82ee-c73a006ccd77")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/x_Connector_Molex.3dshapes/MOLEX_MINI_FIT_02x02_P4.20mm_HORIZONTAL.wrl"
+		(offset
+			(xyz -2.1 8.9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
