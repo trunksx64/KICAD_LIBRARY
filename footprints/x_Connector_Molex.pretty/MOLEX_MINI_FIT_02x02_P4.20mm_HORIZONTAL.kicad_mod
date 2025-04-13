@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "CONN HEADER R/A 4POS 4.2MM")
 	(property "Reference" "REF**"
-		(at -4.325 -8.635 0)
+		(at -6 -8 0)
 		(layer "F.SilkS")
 		(uuid "28169fcf-410b-445d-80ae-c8814aea77aa")
 		(effects
@@ -132,44 +132,44 @@
 		(uuid "32c26897-7235-4d10-b0db-961fe58b2101")
 	)
 	(fp_line
-		(start -7.15 -7.14)
-		(end 2.95 -7.14)
+		(start -8 -7.304999)
+		(end -8 15.17)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "59b36506-dca9-4839-a2f9-2c34de524dfa")
+		(uuid "fdf886d7-a284-4f43-b446-fb9bacd28bd4")
 	)
 	(fp_line
-		(start -7.15 14.15)
-		(end -7.15 -7.14)
+		(start -8 15.17)
+		(end 3.8 15.17)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "119db080-adaa-4f71-9821-b836b3f31baf")
+		(uuid "771b02e5-4c21-4cb9-b492-600dbbd51f3c")
 	)
 	(fp_line
-		(start 2.95 -7.14)
-		(end 2.95 14.15)
+		(start 3.8 -7.304999)
+		(end -8 -7.304999)
 		(stroke
 			(width 0.127)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "763b082a-f3c2-485a-a5bb-0e49684c22b1")
+		(uuid "845d63bf-ebfa-42b2-a1c8-f20c78854eb2")
 	)
 	(fp_line
-		(start 2.95 14.15)
-		(end -7.15 14.15)
+		(start 3.8 15.17)
+		(end 3.8 -7.304999)
 		(stroke
-			(width 0.05)
+			(width 0.127)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e4c4d115-bb30-4412-9db9-a962cb2f6eeb")
+		(uuid "7f3c4a4d-171f-4b23-a39c-9740fa3263e0")
 	)
 	(fp_line
 		(start -6.9 1.1)
