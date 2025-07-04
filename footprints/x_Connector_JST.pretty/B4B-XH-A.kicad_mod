@@ -1,0 +1,229 @@
+(footprint "B4B-XH-A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CONN HEADER VERT 4POS 2.5MM")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "33e14999-b5ae-46d2-ac28-01787a512419")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "B4B-XH-A"
+		(at 0 3.81 0)
+		(layer "F.Fab")
+		(uuid "c78980a8-e749-4c70-b9e3-d042eb419706")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cc69b21-1edc-4a1b-879c-38b17be5059d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HEADER VERT 4POS 2.5MM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1a104e3-10cf-4fed-b325-652e2d60f92f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.2 -2.875)
+		(end -6.2 -0.762)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99e435f9-35c9-4f7b-81bb-55482767f5f5")
+	)
+	(fp_line
+		(start -6.2 -2.875)
+		(end -3.81 -2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26499fda-28f0-49df-ae6e-bde6da76eedc")
+	)
+	(fp_line
+		(start -6.2 2.875)
+		(end -6.2 0.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf0a08fc-a7e1-4e2e-b77b-d5d82ed08115")
+	)
+	(fp_line
+		(start -6.2 2.875)
+		(end -4.087 2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbba6077-8b44-42ce-8e79-5897f04e7903")
+	)
+	(fp_line
+		(start 6.2 -2.875)
+		(end 4.087 -2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7d43406-366f-4e28-b077-a5ba452fce9a")
+	)
+	(fp_line
+		(start 6.2 -2.875)
+		(end 6.2 -0.485)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fffbe5d9-ab4f-4620-8b07-dfed6958ef21")
+	)
+	(fp_line
+		(start 6.2 2.875)
+		(end 3.81 2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46d408fa-dd49-4762-9c6e-4858cc3099bc")
+	)
+	(fp_line
+		(start 6.2 2.875)
+		(end 6.2 0.762)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30470147-1c1c-474c-b510-0051dbe7652d")
+	)
+	(fp_line
+		(start -6.2 -2.875)
+		(end -6.2 2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "726d5642-3df2-46ac-8dab-77f2dd7a181f")
+	)
+	(fp_line
+		(start -6.2 -2.875)
+		(end 6.2 -2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b0e77d6-7888-4840-a867-95c0b6bc01b5")
+	)
+	(fp_line
+		(start -6.2 2.875)
+		(end 6.2 2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e4a9ddd8-7ada-440b-a9de-a5d7da8f72b2")
+	)
+	(fp_line
+		(start 6.2 -2.875)
+		(end 6.2 2.875)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0b7f3c6-3a8b-4cbc-8e07-4879365e8103")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "b8fcd648-8385-4e85-ba16-e9b058ae3ba3")
+		(effects
+			(font
+				(size 0.8128 0.8128)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 3.75 0.525)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1212456-d2b9-440c-9946-508c16588497")
+	)
+	(pad "2" thru_hole circle
+		(at 1.25 0.525)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fe6b1ab-b272-4c55-88f3-15c955c8b1f3")
+	)
+	(pad "3" thru_hole circle
+		(at -1.25 0.525)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "533e0349-e9bd-4e8f-92c0-75eac764bdf1")
+	)
+	(pad "4" thru_hole circle
+		(at -3.75 0.525)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d070d92e-528b-4236-9018-11247fadff60")
+	)
+	(embedded_fonts no)
+	(model "${KICAD7_3DMODEL_DIR}/x_Connector_JST.3dshapes/JST B4B-XH-A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
