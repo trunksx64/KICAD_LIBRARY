@@ -1,0 +1,248 @@
+(footprint "KW3-S561AWB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Display Modules - LED Character and Numeric White 7-Segment 3 Character Common Anode 2.9V 10mA 0.748\" H x 1.476\" W x 0.148\" D (19.00mm x 37.50mm x 3.75mm) 12-SMD, No Lead")
+	(property "Reference" "REF**"
+		(at -16.9672 -10.7188 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9aed311a-4d62-49e5-a96c-0f5d6cb26e17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KW3-S561AWB"
+		(at -13.4366 10.6934 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34a27307-2612-473e-9f08-22663e784ae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.luckylight.cn/media/component/data-sheet/KW3-S561AWB.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53f4fcaf-277f-497a-b2a9-02498d80d166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "0.56inch (14.2mm),White Triple D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f3590b3-15bf-4abf-b93b-34cac6e934c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -18.9 -9.65)
+		(end -18.9 9.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2512c6d6-db1d-4423-a3e8-6edc8f8a5551")
+	)
+	(fp_line
+		(start -7.9109 -9.652)
+		(end -18.9 -9.65)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8523f5a3-170f-4a35-b996-2acd04046ee7")
+	)
+	(fp_line
+		(start -7.9109 9.652)
+		(end -18.9 9.654)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33d27a0d-ec6f-435c-b83b-1b5b588febb4")
+	)
+	(fp_line
+		(start 18.9 -9.652)
+		(end 7.8994 -9.652)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "093eca34-3824-41ce-b922-e621b67075f0")
+	)
+	(fp_line
+		(start 18.9 9.65)
+		(end 18.9 -9.65)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d648f1db-26ee-4bc2-ad7c-5249e5f5e347")
+	)
+	(fp_line
+		(start 18.9 9.652)
+		(end 7.8994 9.652)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46a5d88e-7633-4ddb-93e2-494426510f24")
+	)
+	(fp_circle
+		(center -7.8994 10.033)
+		(end -7.8232 10.0076)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "362ecbb3-dff5-46f9-93b6-3ee00d103a75")
+	)
+	(fp_rect
+		(start -18.75 -9.5)
+		(end 18.75 9.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eaa65230-a2a7-4ee2-81fa-b8475e477d4d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -11.8364 -1.3462 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5af1a5de-ad02-44b4-abc2-5d87803ca4a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -6.35 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "56b59e07-060d-478a-bfa0-a1935432b9f2")
+	)
+	(pad "2" smd rect
+		(at -3.81 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "95bb068a-f9c2-404c-9ae9-be868c528f4a")
+	)
+	(pad "3" smd rect
+		(at -1.27 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "fa6eb1a9-f1f9-41da-be24-756c28088a61")
+	)
+	(pad "4" smd rect
+		(at 1.27 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "7fd03bb8-d989-4691-9726-91025bad16d8")
+	)
+	(pad "5" smd rect
+		(at 3.81 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "578c1b4f-a2da-43b1-912f-ee7efd7ef235")
+	)
+	(pad "6" smd rect
+		(at 6.35 8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0703a7ea-c1da-414b-897b-4145abd1cde4")
+	)
+	(pad "7" smd rect
+		(at 6.35 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "3c7d6758-a9fa-48be-83dd-29edc1bcb9d9")
+	)
+	(pad "8" smd rect
+		(at 3.81 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "28823917-a9b3-4524-a9e0-a6b54cbb2ccb")
+	)
+	(pad "9" smd rect
+		(at 1.27 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "70855c11-549e-40d0-b6fc-92173a59dfa6")
+	)
+	(pad "10" smd rect
+		(at -1.27 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "5fa1273e-76ba-4652-b197-bcc07845050d")
+	)
+	(pad "11" smd rect
+		(at -3.81 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "30f5295f-01af-466d-8388-a5d04dfffbff")
+	)
+	(pad "12" smd rect
+		(at -6.35 -8.75 90)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "ea9aa200-5c36-4f65-b08c-10b117542c63")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/x_Display_7Segment.3dshapes/KW3-S561AWB.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
