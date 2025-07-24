@@ -1,0 +1,162 @@
+(footprint "MS920SE-FL27E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "BATT LITH 3V 11MAH COIN 9.5MM")
+	(tags "Coin, 9.5mm 3 V Lithium Battery Rechargeable (Secondary) 11mAh")
+	(property "Reference" "REF**"
+		(at 0.0254 -5.969 0)
+		(layer "F.SilkS")
+		(uuid "73cae700-381d-4197-9349-56799d1cc1af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MS920SE-FL27E"
+		(at 0 6.096 0)
+		(layer "F.Fab")
+		(uuid "78e5be2a-5941-4130-b3b4-e76cabb06846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.sii.co.jp/en/me/files/2024/01/MicroBattery_E_20230330_rev05-security.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "103ac33f-eaf3-4deb-99fd-9628f2720aa6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "170d333e-e602-4d15-a44e-924dc2b14126")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 4.445 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f102a094-defe-46ab-885e-2f78602ef509")
+	)
+	(fp_line
+		(start 4.4958 -1.4986)
+		(end 8.2042 -1.4986)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fcd5cdc4-ef69-468c-98ce-d0f0e836f9b2")
+	)
+	(fp_line
+		(start 8.2042 -1.4986)
+		(end 8.2042 1.4986)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bfc674a8-f8a9-4b79-ade8-d0c0bdc0ad60")
+	)
+	(fp_line
+		(start 8.2042 1.4986)
+		(end 4.4958 1.4986)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3413e256-e2b6-4976-96df-3d1faed6dfc2")
+	)
+	(fp_arc
+		(start 4.4958 1.4986)
+		(mid -4.738989 0)
+		(end 4.4958 -1.4986)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecd81128-8131-457c-a90f-efe7e3c4afe4")
+	)
+	(fp_line
+		(start 8.1026 -1.1136)
+		(end 8.1026 -0.6136)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76e3b6e1-9e03-469e-93a9-0e876cc476d4")
+	)
+	(fp_line
+		(start 8.1026 0.6136)
+		(end 8.1026 1.1136)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e7c5466e-f59c-41c5-8ce0-c926a4ac9e40")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.318 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "04603d0e-4c02-4585-8339-f73b08c0f491")
+	)
+	(pad "1" smd rect
+		(at 6.325 -0.8636)
+		(size 3.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23457f95-57a2-4359-8100-9fd08ece3128")
+	)
+	(pad "2" smd rect
+		(at 6.325 0.8636)
+		(size 3.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "916872bb-9567-4543-bf2f-4c20e5c0d201")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Seiko_MS621F.wrl"
+		(offset
+			(xyz 6 0 0)
+		)
+		(scale
+			(xyz 1.2 1.2 1.2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

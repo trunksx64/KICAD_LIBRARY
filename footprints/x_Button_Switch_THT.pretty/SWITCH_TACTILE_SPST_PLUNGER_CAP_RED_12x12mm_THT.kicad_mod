@@ -1,0 +1,324 @@
+(footprint "SWITCH_TACTILE_SPST_PLUNGER_CAP_RED_12x12mm_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SWITCH TACTILE SPST-NO 0.05A 48V")
+	(tags "Tactile Switch SPST-NO Top Actuated Through Hole")
+	(property "Reference" "SWITCH_SPST_12x12mm_THT"
+		(at 0 -7.2644 0)
+		(layer "F.SilkS")
+		(uuid "efac1476-0526-4b34-8ce9-2b1c7beb121b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REF**"
+		(at 0 7.4168 0)
+		(layer "F.SilkS")
+		(uuid "88c300c8-0e7a-4e34-88e0-147438387595")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc4939bf-8711-47c2-936a-0b80aac34ee8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9328e84a-4ff3-4473-b29f-83f458730167")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.096 -5.334)
+		(end -6.096 5.334)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "024cc201-4a12-4ae8-bfab-38147f08c82b")
+	)
+	(fp_line
+		(start -6.096 -5.334)
+		(end -5.08 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bdee640-e6be-4899-b318-a0ad1af68164")
+	)
+	(fp_line
+		(start -5.08 -6.35)
+		(end 5.08 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "857117d1-7a42-453d-94a5-a2a1563415c2")
+	)
+	(fp_line
+		(start -5.08 6.35)
+		(end -6.096 5.334)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43a0eb75-5fcf-4672-aa9e-0cc7c7115f22")
+	)
+	(fp_line
+		(start -5.08 6.35)
+		(end 5.08 6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "beed807b-094b-4007-a6bf-646ea2fee72e")
+	)
+	(fp_line
+		(start -4.572 -4.064)
+		(end -4.572 4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eaf7bad2-f505-4235-ac62-4996b9281847")
+	)
+	(fp_line
+		(start -4.572 -4.064)
+		(end -3.556 -5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a85ba885-21f0-4ec6-a484-69d88e0e6f44")
+	)
+	(fp_line
+		(start -4.572 4.064)
+		(end -3.556 5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "142e2cf6-b82f-4007-9894-377d26b8ab0d")
+	)
+	(fp_line
+		(start -3.556 -5.08)
+		(end 3.302 -5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a510e5e5-5ef7-4d6a-a501-65eee345df9c")
+	)
+	(fp_line
+		(start 3.302 -5.08)
+		(end 3.556 -5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3de2775-f0cf-4183-8569-58c2de09dee1")
+	)
+	(fp_line
+		(start 3.556 -5.08)
+		(end 4.572 -4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ec54f0-0d08-4954-a314-8acf9272ac84")
+	)
+	(fp_line
+		(start 3.556 5.08)
+		(end -3.556 5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bb0a05e-e024-4c96-8062-b72bb8f6b3b6")
+	)
+	(fp_line
+		(start 4.572 4.064)
+		(end 3.556 5.08)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa8e79d5-4110-472a-8939-dffc4dee8b42")
+	)
+	(fp_line
+		(start 4.572 4.064)
+		(end 4.572 -4.064)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c82a2eee-3656-406a-a5cb-6b727ac05b34")
+	)
+	(fp_line
+		(start 5.08 6.35)
+		(end 6.096 5.334)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fc08e6b2-9093-4242-9028-d1ac105c2346")
+	)
+	(fp_line
+		(start 6.096 -5.334)
+		(end 5.08 -6.35)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5985685d-e43d-436c-af13-33e3e86848ac")
+	)
+	(fp_line
+		(start 6.096 5.334)
+		(end 6.096 -5.334)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eae70e4c-a4fe-42ec-9720-c05b32ed5140")
+	)
+	(fp_circle
+		(center -3.048 -3.556)
+		(end -2.54 -2.794)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7331b4f5-537b-4797-b38c-6afa10e0716d")
+	)
+	(fp_circle
+		(center -3.048 3.556)
+		(end -2.286 3.048)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "65acf8e5-9f16-4350-9eac-4ec481b2ee30")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.3335 0)
+		(stroke
+			(width 2.032)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8bbd3c40-a2e0-418c-842d-ed1052422596")
+	)
+	(fp_circle
+		(center 3.048 -3.556)
+		(end 2.286 -3.048)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2ff466f2-a10f-4d30-86d0-258970718dd1")
+	)
+	(fp_circle
+		(center 3.048 3.556)
+		(end 2.286 3.048)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "789426ba-1b00-402b-9dd7-4cc463c090a5")
+	)
+	(pad "1" thru_hole oval
+		(at -6.2484 -2.4892)
+		(size 1.7907 3.5814)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28221cea-e5dd-4443-909d-f89dc42a5054")
+	)
+	(pad "2" thru_hole oval
+		(at 6.2484 -2.4892)
+		(size 1.7907 3.5814)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "59fe4e68-4119-4952-b511-7d1576b16691")
+	)
+	(pad "3" thru_hole oval
+		(at -6.2484 2.4892)
+		(size 1.7907 3.5814)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "01478f52-711e-460d-9130-927d9df325cb")
+	)
+	(pad "4" thru_hole oval
+		(at 6.2484 2.4892)
+		(size 1.7907 3.5814)
+		(drill 1.1938)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d9a88a97-e7e1-4571-8028-07e1b736766b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/x_Button_Switch_THT.3dshapes/SWITCH_TACTILE_SPST_PLUNGER_CAP_RED_12x12mm_THT.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

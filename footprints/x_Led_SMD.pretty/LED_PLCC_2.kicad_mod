@@ -1,7 +1,7 @@
 (footprint "LED_PLCC_2"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "The Orange source color devices are made with AlGaInP")
 	(tags "LED SMD PLCC-2")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "1184ee3a-378d-4dc3-8bc3-7e2ad8026da0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -355,22 +343,23 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.CrtYd")
 		(uuid "dcd4b78d-219c-45b8-be13-9686b097509b")
 	)
 	(pad "1" smd rect
 		(at 0 1.45)
 		(size 2.2 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5732fe89-5269-4719-98b5-f2ef3f341659")
 	)
 	(pad "2" smd rect
 		(at 0 -1.45)
 		(size 2.2 0.95)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "274414ab-1890-467f-a7af-4d612100a2a6")
 	)
+	(embedded_fonts no)
 	(model "${KICAD7_3DMODEL_DIR}/x_Led_SMD.3dshapes/LED_1210RVC.wrl"
 		(offset
 			(xyz 0 0 0)

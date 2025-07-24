@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "CONN MICRO SD CARD R/A SMD")
+	(tags "10 (8 + 2) Position Card Connector Secure Digital - microSD™ Surface Mount, Right Angle Gold")
 	(property "Reference" "REF**"
 		(at -4.41177 -12.95097 0)
 		(layer "F.SilkS")
@@ -25,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
