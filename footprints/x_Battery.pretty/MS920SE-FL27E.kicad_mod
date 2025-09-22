@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "BATT LITH 3V 11MAH COIN 9.5MM")
-	(tags "Coin, 9.5mm 3 V Lithium Battery Rechargeable (Secondary) 11mAh")
+	(descr "Coin, 9.5mm 3 V Lithium Battery Rechargeable (Secondary) 11mAh")
+	(tags "MS920SE")
 	(property "Reference" "REF**"
 		(at 0.0254 -5.969 0)
 		(layer "F.SilkS")
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.sii.co.jp/en/me/files/2024/01/MicroBattery_E_20230330_rev05-security.pdf"
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/4844/DS_728_MS_Series.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "103ac33f-eaf3-4deb-99fd-9628f2720aa6")
+		(uuid "eceeffdd-2904-402e-90c7-a80ef3d1149c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,11 +39,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Coin, 9.5mm 3 V Lithium Battery Rechargeable (Secondary) 11mAh"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "170d333e-e602-4d15-a44e-924dc2b14126")
+		(uuid "a8d820d5-6874-436a-b907-2255bfa1b814")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,20 +52,61 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center 0 0)
-		(end 4.445 0)
+	(fp_line
+		(start 4.4958 -1.7018)
+		(end 8.7122 -1.7018)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "f102a094-defe-46ab-885e-2f78602ef509")
+		(uuid "270d81d8-d8c8-455e-b41a-e2639133bb8b")
 	)
 	(fp_line
-		(start 4.4958 -1.4986)
-		(end 8.2042 -1.4986)
+		(start 8.7122 -1.7018)
+		(end 8.7122 1.7018)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c775a94-1cc9-4602-ad46-4cad692a0558")
+	)
+	(fp_line
+		(start 8.7122 1.7018)
+		(end 4.4958 1.7018)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea2be1ad-bcb7-4f01-8f5e-4a5cdf02b6af")
+	)
+	(fp_arc
+		(start 4.4958 1.7018)
+		(mid -4.807114 0)
+		(end 4.4958 -1.7018)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ddefa36d-9d0d-4b55-aae8-308ae07dc837")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "10c4dcff-3c88-4f4f-a442-e5e36107818b")
+	)
+	(fp_line
+		(start 4.4958 -1.6256)
+		(end 8.636 -1.6256)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -74,8 +115,8 @@
 		(uuid "fcd5cdc4-ef69-468c-98ce-d0f0e836f9b2")
 	)
 	(fp_line
-		(start 8.2042 -1.4986)
-		(end 8.2042 1.4986)
+		(start 8.636 -1.6256)
+		(end 8.636 1.6002)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -84,8 +125,8 @@
 		(uuid "bfc674a8-f8a9-4b79-ade8-d0c0bdc0ad60")
 	)
 	(fp_line
-		(start 8.2042 1.4986)
-		(end 4.4958 1.4986)
+		(start 8.636 1.6002)
+		(end 4.504903 1.600201)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -94,9 +135,9 @@
 		(uuid "3413e256-e2b6-4976-96df-3d1faed6dfc2")
 	)
 	(fp_arc
-		(start 4.4958 1.4986)
-		(mid -4.738989 0)
-		(end 4.4958 -1.4986)
+		(start 4.503881 1.603076)
+		(mid -4.780654 0.011965)
+		(end 4.4958 -1.6256)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -105,8 +146,8 @@
 		(uuid "ecd81128-8131-457c-a90f-efe7e3c4afe4")
 	)
 	(fp_line
-		(start 8.1026 -1.1136)
-		(end 8.1026 -0.6136)
+		(start 8.5344 -1.2594)
+		(end 8.5344 -0.7594)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -115,8 +156,8 @@
 		(uuid "76e3b6e1-9e03-469e-93a9-0e876cc476d4")
 	)
 	(fp_line
-		(start 8.1026 0.6136)
-		(end 8.1026 1.1136)
+		(start 8.5344 0.7406)
+		(end 8.5344 1.2406)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -136,24 +177,26 @@
 		(uuid "04603d0e-4c02-4585-8339-f73b08c0f491")
 	)
 	(pad "1" smd rect
-		(at 6.325 -0.8636)
-		(size 3.5 1)
+		(at 6.8834 -1.0094 270)
+		(size 0.9 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "23457f95-57a2-4359-8100-9fd08ece3128")
+		(solder_mask_margin 0.102)
+		(uuid "c2a885ce-62ac-429f-a670-dfa20fe7e325")
 	)
 	(pad "2" smd rect
-		(at 6.325 0.8636)
-		(size 3.5 1)
+		(at 6.8834 0.9906 270)
+		(size 0.9 3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "916872bb-9567-4543-bf2f-4c20e5c0d201")
+		(solder_mask_margin 0.102)
+		(uuid "e46e466e-f473-4fc1-8aa4-a1960269be96")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Seiko_MS621F.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/MS920SE-FL27E003.wrl"
 		(offset
-			(xyz 6 0 0)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1.2 1.2 1.2)
+			(xyz 1 1 1)
 		)
 		(rotate
 			(xyz 0 0 0)
