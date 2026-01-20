@@ -396,7 +396,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_RX_WiFi.3dshapes/ESP-M3_SMD.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_RX_WiFi.3dshapes/ESP_M3_SMD.wrl"
 		(offset
 			(xyz 0 10 0)
 		)

@@ -1,4 +1,4 @@
-(footprint "MS920SE-FL27E"
+(footprint "MS920SE_FL27E"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -191,7 +191,7 @@
 		(uuid "e46e466e-f473-4fc1-8aa4-a1960269be96")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/MS920SE-FL27E003.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/MS920SE_FL27E003.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

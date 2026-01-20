@@ -1,4 +1,4 @@
-(footprint "S4B-PH-SM4-TB"
+(footprint "S4B_PH_SM4_TB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -246,7 +246,7 @@
 		(uuid "9b518d60-8a48-491c-a143-b1c445d34986")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Connector_JST.3dshapes/S4B-PH-SM4-TB.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Connector_JST.3dshapes/S4B_PH_SM4_TB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

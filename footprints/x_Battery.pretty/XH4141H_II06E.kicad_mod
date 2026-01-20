@@ -1,4 +1,4 @@
-(footprint "XH4141H-II06E"
+(footprint "XH4141H_II06E"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -136,7 +136,7 @@
 		(uuid "da941318-f674-454e-8151-1e43e4d293f6")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/XH4141H-II06E.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/XH4141H_II06E.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

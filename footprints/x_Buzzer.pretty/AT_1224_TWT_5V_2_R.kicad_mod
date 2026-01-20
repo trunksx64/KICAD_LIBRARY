@@ -1,4 +1,4 @@
-(footprint "AT-1224-TWT-5V-2-R"
+(footprint "AT_1224_TWT_5V_2_R"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -164,7 +164,7 @@
 		(uuid "1124e5e2-059a-4378-bb96-118df159b2ae")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Buzzer.3dhapes/AT-1224-TWT-5V-2-R.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Buzzer.3dhapes/AT_1224_TWT_5V_2_R.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

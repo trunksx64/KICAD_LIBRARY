@@ -746,7 +746,7 @@
 		(uuid "1e0752f5-9044-4a78-ac8a-f1ae98237645")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical_Heatsink_A.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Package_TO_SOT_THT.3dshapes/TO_220_3_Vertical_Heatsink_A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

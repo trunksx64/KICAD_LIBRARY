@@ -1,4 +1,4 @@
-(footprint "B4B-XH-A"
+(footprint "B4B_XH_A"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -215,7 +215,7 @@
 		(uuid "d070d92e-528b-4236-9018-11247fadff60")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/x_Connector_JST.3dshapes/JST B4B-XH-A.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Connector_JST.3dshapes/JST_B4B_XH_A.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

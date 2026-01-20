@@ -392,7 +392,7 @@
 		(uuid "72ce9371-5307-46dd-88b5-bf2e1f8e23bb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Package_SO.3dshapes/SSOP-28_5.3x10.2mm_P0.65mm.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Package_SO.3dshapes/SSOP_28_5.3x10.2mm_P0.65mm.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

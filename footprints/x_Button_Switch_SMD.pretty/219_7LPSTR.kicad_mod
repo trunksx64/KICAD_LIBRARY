@@ -1,4 +1,4 @@
-(footprint "219-7LPSTR"
+(footprint "219_7LPSTR"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -312,7 +312,7 @@
 		(uuid "0d00a30a-fbc4-408c-a625-272c7eee1c88")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Button_Switch_SMD.3dshapes/219-7LPSTR.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Button_Switch_SMD.3dshapes/219_7LPSTR.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

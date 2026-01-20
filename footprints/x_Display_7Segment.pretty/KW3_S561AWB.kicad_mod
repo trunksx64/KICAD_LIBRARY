@@ -1,4 +1,4 @@
-(footprint "KW3-S561AWB"
+(footprint "KW3_S561AWB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -234,7 +234,7 @@
 		(uuid "ea9aa200-5c36-4f65-b08c-10b117542c63")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Display_7Segment.3dshapes/KW3-S561AWB.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Display_7Segment.3dshapes/KW3_S561AWB.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
