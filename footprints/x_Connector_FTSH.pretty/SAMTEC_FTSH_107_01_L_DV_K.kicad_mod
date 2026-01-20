@@ -1,4 +1,4 @@
-(footprint "SAMTEC_FTSH-107-01-L-DV-K"
+(footprint "SAMTEC_FTSH_107_01_L_DV_K"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -342,7 +342,7 @@
 		(uuid "aa0131f0-a894-4620-a4db-f56bb9400ad4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/x_Connector_FTSH.3dshapes/FTSH-107-01-L-DV-K.wrl"
+	(model "${KICAD9_3DMODEL_DIR}/x_Connector_FTSH.3dshapes/FTSH-107-01-L-DV-K.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

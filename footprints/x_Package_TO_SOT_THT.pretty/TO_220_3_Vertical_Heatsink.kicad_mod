@@ -1,7 +1,7 @@
-(footprint "TO-220-3_Vertical_Heatsink"
-	(version 20240108)
+(footprint "TO_220_3_Vertical_Heatsink"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 	(tags "TO-220-3 Vertical RM 2.54mm")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -2.54 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4cd7f0b4-d0a2-4c15-af02-dda1f90cac86")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -142,7 +130,7 @@
 			(width 0.05)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d8968c3c-0783-4a2c-b931-a33278ce642e")
 	)
@@ -194,7 +182,7 @@
 			(width 0.05)
 			(type dash)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "72164a76-8050-407e-965a-2b1531a783b8")
 	)
@@ -276,7 +264,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "bbc59708-1786-415a-a23b-9d7c5debc49c")
 	)
@@ -315,7 +303,8 @@
 		(remove_unused_layers no)
 		(uuid "1e0752f5-9044-4a78-ac8a-f1ae98237645")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/x_Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical_Heatsink.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/x_Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical_Heatsink.wrl"
 		(offset
 			(xyz 0 0 0)
 		)

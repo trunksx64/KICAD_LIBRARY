@@ -1,4 +1,4 @@
-(footprint "TO-220-3_Vertical_Heatsink_A"
+(footprint "TO_220_3_Vertical_Heatsink_A"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

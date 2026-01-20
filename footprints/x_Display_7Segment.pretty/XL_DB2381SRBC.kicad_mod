@@ -1,4 +1,4 @@
-(footprint "XL-DB2381SRBC"
+(footprint "XL_DB2381SRBC"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -183,7 +183,7 @@
 		(uuid "0b9dfbfe-1e19-4396-b6a1-78bceb1cec64")
 	)
 	(embedded_fonts no)
-	(model "/home/xDNA/Archives/Documents/KiCad/KICAD_LIBRARY/3dmodels/x_Display_7Segment.3dshapes/XL-DB2381SRBC.wrl"
+	(model "/home/xDNA/Archives/Documents/KiCad/KICAD_LIBRARY/3dmodels/x_Display_7Segment.3dshapes/XL_DB2381SRBC.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
