@@ -123,13 +123,23 @@
 	)
 	(fp_line
 		(start -2.54 2.54)
-		(end 2.54 2.54)
+		(end -1 2.54)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "8f99b46a-ef50-4934-8a4b-a7fcc172636a")
+	)
+	(fp_line
+		(start 1 2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d8aee0d0-7d9b-4a8e-aea4-90a87dbdf125")
 	)
 	(fp_line
 		(start 2.54 -2.54)
