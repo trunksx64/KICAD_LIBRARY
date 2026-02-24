@@ -1,7 +1,7 @@
-(footprint "KR-5R5V224-R_D11.5mm_P5.00mm"
-	(version 20240108)
+(footprint "KR_5R5V224_R_D11.5mm_P5.00mm"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "KR Series Supercapacitor")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 -4.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9e82cea7-5b77-4da6-94f2-944f70754c09")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -365,15 +352,16 @@
 		(remove_unused_layers no)
 		(uuid "e1b8c4e7-414a-4438-aa6c-dd515fa140ba")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/x_Capacitors/SUPER_CAP_V_TYPE_D11.5mm_P5.0mm.wrl"
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/x_Capacitors/KR-5R5V224-R.wrl"
 		(offset
-			(xyz 0 -0.2 0)
+			(xyz 0 -2.5 0)
 		)
 		(scale
-			(xyz 1 0.9 1)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
