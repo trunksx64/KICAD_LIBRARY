@@ -1,14 +1,14 @@
 (footprint "Terminal_Block_3Poles_P5.08mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "ED120-3DS")
 	(tags "terminal block 3 Poles")
 	(property "Reference" "REF**"
 		(at -5.588 -5.842 0)
 		(layer "F.SilkS")
-		(uuid "c58059f8-647a-41eb-8820-2988f1828af1")
+		(uuid "86678b67-af54-4e0c-b371-229959be258d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Terminal_Block_3Poles_P5.08mm"
 		(at 0 5.08 0)
 		(layer "F.Fab")
-		(uuid "7ffcaa66-5e92-464b-bbe4-35d7c023a4d1")
+		(uuid "de4f899d-e8b4-4910-9267-08cdc576ca40")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ca96d772-800a-4336-830c-0b25f2b38ea1")
+		(uuid "f6c5bde2-f352-4130-837a-1be678efc2c2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c3a4749-13c8-45ff-b21b-184668220614")
+		(uuid "5921a290-f3b3-4eb5-b2aa-f15993f77914")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -7.5 -5)
 		(end -7.5 -2.5)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1acb81ee-cfbb-43cb-b04a-8b3d554e1ebd")
+		(uuid "4f02dff7-351e-44d0-9ded-12f8c11c7b25")
 	)
 	(fp_line
 		(start -7.5 -5)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "19b34829-0d2b-4d7e-88d0-18f60c5e9fb7")
+		(uuid "11567984-9be2-46c4-869d-0a793c576ae2")
 	)
 	(fp_line
 		(start -7.5 4)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7508fc71-447c-46db-bfcd-4c7d109fb777")
+		(uuid "c74265cf-59f4-4d60-b121-d92ba92ccc24")
 	)
 	(fp_line
 		(start -7.5 4)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ac1c0af9-ef04-4a35-bb51-76a5f4b39901")
+		(uuid "4936cd4e-df15-4714-8ada-1615e1cd4135")
 	)
 	(fp_line
 		(start 7.49936 -5.00064)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "193aa9e7-6f5f-47dd-a2e0-53067ea9f154")
+		(uuid "947a7112-100a-4c3e-bb77-63eab48f56d6")
 	)
 	(fp_line
 		(start 7.5 -5)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "93cf61f6-0eae-4b9b-b38e-acc536badde7")
+		(uuid "307550d4-1687-4394-8ede-28c83382249b")
 	)
 	(fp_line
 		(start 7.5 3.99924)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "157e8f2a-8779-4a60-bad6-6879bbf4687a")
+		(uuid "ada77726-a783-4369-8d02-2fdb8bd3a5ac")
 	)
 	(fp_line
 		(start 7.5 4)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d4e4fe2a-1928-4bd8-9a9b-ad36c3abd4fd")
+		(uuid "0f92315d-b962-4872-9011-82575a6b42e0")
 	)
 	(fp_line
 		(start -7.5 -5)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6e8cb976-835d-4dea-921c-d814d852f4cb")
+		(uuid "3f694042-4c2a-4a09-9084-9b81bcfff805")
 	)
 	(fp_line
 		(start -7.5 -5)
@@ -150,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "86b5d6e3-a69a-4dc4-a68f-53ce703bbaed")
+		(uuid "19421cb3-f85b-4796-a837-36ee51b4004e")
 	)
 	(fp_line
 		(start -7.5 4)
@@ -160,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f2a4f062-18a2-4173-9742-24a874255527")
+		(uuid "b69620cc-cd6e-4b13-a02f-692de9de93db")
 	)
 	(fp_line
 		(start 7.5 -5)
@@ -170,12 +171,12 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b565bcdc-7041-42d7-a1ac-bd0665414f76")
+		(uuid "232d130e-39b5-436e-bc78-4d62fd9d8213")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -5.588 -5.842 0)
 		(layer "F.Fab")
-		(uuid "d05a8a57-532c-4506-871c-b337dab47fdc")
+		(uuid "007180f3-4f7f-41a8-a782-ae908e030309")
 		(effects
 			(font
 				(size 1 1)
@@ -189,7 +190,7 @@
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "72d734d9-ccf2-4872-b96a-0c163b46869f")
+		(uuid "239d82b7-cc60-4f04-bfc8-8c69f2efa440")
 	)
 	(pad "2" thru_hole circle
 		(at 0 0)
@@ -197,7 +198,7 @@
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3f8719e7-fd27-4a24-95d2-a9aa24bd4a5f")
+		(uuid "0f94c8a7-7f60-40fa-bee3-ab6c55a1acdb")
 	)
 	(pad "3" thru_hole circle
 		(at 5.08 0)
@@ -205,10 +206,10 @@
 		(drill 1.52)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "72e32a2d-6d54-4c08-8135-8a9c14a6b016")
+		(uuid "1dacf77c-03a4-433b-aa4b-9e410425a751")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Terminal_Block.3dshapes/Terminal_Block_3Poles_P5.08mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Terminal_Block.3dshapes/Terminal_Block_3Poles_P5.08mm.step"
 		(offset
 			(xyz 0 0 0.12)
 		)

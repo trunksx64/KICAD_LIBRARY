@@ -1,13 +1,13 @@
 (footprint "USB_MINI_B_PCB_MOUNT_180_DIP"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(tags "USB_MINI_B_PCB_MOUNT_180_DIP")
 	(property "Reference" "REF**"
 		(at -0.762 -4.064 0)
 		(layer "F.SilkS")
-		(uuid "2acaf2de-fd39-445f-943c-c4718e83fc64")
+		(uuid "22dad7f8-e1f8-462c-9873-76864fc25f12")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 	(property "Value" "USB_Mini_B_PCB_Mount_180_DIP"
 		(at 1.5 2.2 0)
 		(layer "F.Fab")
-		(uuid "19564a71-ce37-42d2-a51c-a25445cf57c5")
+		(uuid "ac717fab-0824-411c-ba91-86356bb35f25")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30e36f70-95af-45e4-80c6-bbf4ff75bf71")
+		(uuid "7f3d0731-af02-441e-8e02-80330e77d942")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fffc13e0-f5ad-4f46-862b-b158a2ca6828")
+		(uuid "46c04110-f032-43fb-9e4b-0e31e60d66a6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.3 -2.9)
 		(end 5.5 -2.9)
@@ -59,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d4286bc5-3f3a-4659-80b9-42b41fa62ce8")
+		(uuid "37aca779-f046-4332-8d69-063714bab944")
 	)
 	(fp_line
 		(start -2.3 -2.3)
@@ -69,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "02950d75-ff67-4863-9733-9bd99650b835")
+		(uuid "5f9f31bc-43b1-4133-a31f-871c6939bbc9")
 	)
 	(fp_line
 		(start -2.3 0.6)
@@ -79,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "898c0094-ff4f-4630-91c1-84e767f091ad")
+		(uuid "3d2d24b3-f601-42fb-a417-e76348a4a8fe")
 	)
 	(fp_line
 		(start -2.3 1.2)
@@ -89,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "80420a0d-53ba-4be4-b9a3-8c2223dbfa01")
+		(uuid "dc893323-caf6-4f3b-b893-767b31be4625")
 	)
 	(fp_line
 		(start -0.5 1.5)
@@ -99,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "be275fba-58f6-4a8a-b37c-129fb648aed7")
+		(uuid "38d34d05-785b-470d-bd7c-370bd02a1c3e")
 	)
 	(fp_line
 		(start 5.5 -2.9)
@@ -109,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a96a8ef0-6ebd-4160-86c3-7cb63441e0a6")
+		(uuid "4966af1e-f610-4e42-8ccf-186ad210f0ee")
 	)
 	(fp_line
 		(start 5.5 1.2)
@@ -119,7 +120,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "88000859-78d2-4c43-bac7-0b3d749f1368")
+		(uuid "0b5f8fa4-5d56-461f-9d00-aae1bc873deb")
 	)
 	(fp_line
 		(start -2.8 -3.2)
@@ -129,7 +130,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "97c636dc-eabd-49d1-b13e-f68cf3a55b77")
+		(uuid "7adb8197-089d-4855-94ad-151334c543b0")
 	)
 	(fp_line
 		(start -2.8 1.5)
@@ -139,7 +140,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7d579949-d2e9-45ae-9698-0cdea149db19")
+		(uuid "b4011490-2902-4ff1-9603-aa042bc11de6")
 	)
 	(fp_line
 		(start 6 -3.2)
@@ -149,7 +150,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fd355cf0-3197-4532-afba-ec8717897bfb")
+		(uuid "ca6ee1e8-9f5a-4d26-b9dc-d67802384d6c")
 	)
 	(fp_line
 		(start 6 1.5)
@@ -159,7 +160,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "55e19405-cdcb-46ad-9726-05d25e5ceafc")
+		(uuid "b62bb3de-e414-4ecd-9e95-9a8fb1472050")
 	)
 	(fp_line
 		(start -2 0.9)
@@ -169,7 +170,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8c21236c-b177-4669-8716-36f516ca4a7d")
+		(uuid "aea53b84-2637-4b25-b8d3-687eb749c48d")
 	)
 	(fp_line
 		(start -2 0.9)
@@ -179,7 +180,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3d1b4b72-33ab-463a-81f8-af08de108647")
+		(uuid "5b1dec10-b17f-4825-845f-e5038afdc0d3")
 	)
 	(fp_line
 		(start -0.7 0.9)
@@ -189,7 +190,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8ae499bf-fd09-4ee4-b80a-645a7ba044dd")
+		(uuid "c1d67408-2ab2-483a-99d6-61592d57733f")
 	)
 	(fp_line
 		(start 0 0.2)
@@ -199,7 +200,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5992c750-33c2-4cd0-8fc1-226c3984215d")
+		(uuid "b4e04b54-d636-42cf-a501-90dcff14a3f2")
 	)
 	(fp_line
 		(start 0.7 0.9)
@@ -209,7 +210,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0a998541-d8f3-40a0-8891-39bc18400019")
+		(uuid "9b007451-6bb3-48f0-847f-e27a05ca8fa8")
 	)
 	(fp_line
 		(start 5.2 -2.6)
@@ -219,7 +220,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "eb4b6ec1-d280-45a5-a867-b25d0ed2f45b")
+		(uuid "97db5678-8d52-4ce5-acaf-84f0c92045e0")
 	)
 	(fp_line
 		(start 5.2 -2.6)
@@ -229,7 +230,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7c0cf58c-e25b-422b-8099-af386f9b94eb")
+		(uuid "3f38d987-9e8a-4a59-948a-306140b0c5b6")
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
@@ -237,7 +238,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cb143420-fca2-4cbd-801e-28377ce9b27c")
+		(uuid "b3e93eeb-9a9c-4f59-8f88-3469c9b9898b")
 	)
 	(pad "2" thru_hole circle
 		(at 0.8 -1.75)
@@ -245,7 +246,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "16d0f14e-6254-4472-9e76-ec07cbf6b6f3")
+		(uuid "b8b73e11-cb9e-440b-9c7f-78b3a6e473f7")
 	)
 	(pad "3" thru_hole circle
 		(at 1.6 0)
@@ -253,7 +254,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "918f9233-4f1a-44c9-a114-4311eadc7528")
+		(uuid "85abd95c-a3f1-41b9-999a-0e83b007246d")
 	)
 	(pad "4" thru_hole circle
 		(at 2.4 -1.75)
@@ -261,7 +262,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "55fa0900-d141-4597-990a-eda29edb12d1")
+		(uuid "af75683e-6422-483c-910b-44c1c45754b6")
 	)
 	(pad "5" thru_hole circle
 		(at 3.2 0)
@@ -269,7 +270,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4c4881cd-1350-4a28-b356-f3643fc5503d")
+		(uuid "f87f59f9-0bd2-434e-a691-a36b951511ca")
 	)
 	(pad "6" thru_hole oval
 		(at -2.05 -0.875)
@@ -277,7 +278,7 @@
 		(drill oval 0.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0ba84243-70c7-48df-bdf9-a84868bb200d")
+		(uuid "e5f3a07c-fa85-4e71-963f-ce5593a534f4")
 	)
 	(pad "6" thru_hole oval
 		(at 5.25 -0.875)
@@ -285,10 +286,10 @@
 		(drill oval 0.7 2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f864b1b6-4eef-439c-a377-b3311f670600")
+		(uuid "3ce3f096-9260-4b2a-9e39-b6158c03e733")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Connector_USB.3dshapes/USB_MINI_B_PCB_MOUNT_180_DIP.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Connector_USB.3dshapes/USB_MINI_B_PCB_MOUNT_180_DIP.step"
 		(offset
 			(xyz 0 0 0)
 		)

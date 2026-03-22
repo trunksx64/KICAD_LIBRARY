@@ -1,13 +1,13 @@
 (footprint "2016L050MR"
-	(version 20240108)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Polymeric PTC Resettable Fuse 60V 550 mA Ih Surface Mount 2016 (5041 Metric), Concave")
 	(property "Reference" "REF**"
 		(at -0.275 -4.185 0)
 		(layer "F.SilkS")
-		(uuid "7a47664c-7074-43f3-88eb-7d06106bda79")
+		(uuid "8a1f5c3b-c9e5-4257-a7d8-0104dc28a511")
 		(effects
 			(font
 				(size 1 1)
@@ -18,22 +18,10 @@
 	(property "Value" "2016L050MR"
 		(at 0 4.185 0)
 		(layer "F.Fab")
-		(uuid "4190f58e-e57a-453a-9c4c-518521090bdc")
+		(uuid "f371caba-99fb-4f8e-aad4-95adb3cdd6c5")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dd2099ff-9302-4358-b2da-74b9e57647f0")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -42,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d895beee-6e48-4f60-88f8-b80ba5948a49")
+		(uuid "2441eae9-cc0d-4ded-95ad-46fe0b0925d4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8608a43b-b0c8-47c4-be17-16369ebd31af")
+		(uuid "fd58397b-c6b4-43d1-bdf9-f15b3478a867")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,6 +51,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.38 -2.032)
 		(end 1.38 -2.032)
@@ -71,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "799981f0-0ee4-4e78-9170-e9f952d95a4e")
+		(uuid "04a66441-c9ca-4114-8b84-74e71912273c")
 	)
 	(fp_line
 		(start -1.38 2.032)
@@ -81,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f050861d-8475-4eb1-b6b1-4059878fa5f7")
+		(uuid "8cfe41ee-9884-4cf6-923a-9a147674f8da")
 	)
 	(fp_circle
 		(center -4.2 0)
@@ -90,9 +79,9 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "1f90058a-fb3d-451a-9b9d-52b056275f6c")
+		(uuid "68b65115-4fbe-490b-8d76-b4852b4a223e")
 	)
 	(fp_line
 		(start -3.45 -2.55)
@@ -102,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "feaaf4f6-64d2-418d-ad47-169861b823a5")
+		(uuid "0f9785eb-cd38-4e65-95fc-ebfb086b2a42")
 	)
 	(fp_line
 		(start -3.45 2.55)
@@ -112,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "43ab0b6d-787a-43b3-8a5e-a34c6f710505")
+		(uuid "07ec7337-266f-4510-98c1-1810207b034d")
 	)
 	(fp_line
 		(start 3.45 -2.55)
@@ -122,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "12c0c052-d8e0-4761-b839-4f2702e56e55")
+		(uuid "a42155e3-33ed-4bab-871f-bf1b9209d422")
 	)
 	(fp_line
 		(start 3.45 2.55)
@@ -132,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "415903b2-82ca-4e65-8066-d8f1105adc08")
+		(uuid "6086739c-fedc-4005-a10d-a151a9d29a77")
 	)
 	(fp_line
 		(start -2.54 2.032)
@@ -142,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0b788646-bfd0-4e5f-a7f6-b4f0a3c8a86d")
+		(uuid "6ca88ffa-a1b1-48d7-b40c-b7fc80f0362b")
 	)
 	(fp_line
 		(start 2.54 -2.032)
@@ -152,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0e6a9c51-d008-472e-9d82-52117dceba61")
+		(uuid "9907c350-e312-49b3-abdd-6c71d3474144")
 	)
 	(fp_line
 		(start 2.54 2.032)
@@ -162,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "9abf5d14-322a-4ca5-990e-c2b34f7e77c4")
+		(uuid "a072193a-3b3f-42b3-a3f9-05816c824d46")
 	)
 	(fp_line
 		(start 2.54 2.032)
@@ -172,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c451e231-cb93-42e8-8f29-4c0845a7cb54")
+		(uuid "f008e061-ddff-486e-85cf-282333d4cbd9")
 	)
 	(fp_circle
 		(center -4.2 0)
@@ -181,25 +170,26 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
-		(uuid "49c1fc82-21b6-4c9e-9d29-9c63aa465b61")
+		(uuid "b045a392-2e56-46db-a641-b8881d8f6978")
 	)
 	(pad "1" smd rect
 		(at -2.45 0)
 		(size 1.5 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "8846bfb6-3583-4173-82e8-266620165ade")
+		(uuid "90f5ec44-bbe1-4414-bbef-c3b93a3a6930")
 	)
 	(pad "2" smd rect
 		(at 2.45 0)
 		(size 1.5 4.6)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
-		(uuid "6d233201-7754-4f6c-bd15-12718655ad8e")
+		(uuid "1e2a053f-09cd-4dda-8f1a-c9de44209355")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/x_Fuses.3dshapes/1812L110.step"
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/x_Fuses.3dshapes/MF_SMDF200.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -207,7 +197,7 @@
 			(xyz 1.2 1 1.2)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

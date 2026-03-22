@@ -1,14 +1,14 @@
 (footprint "SWITCH_TACTILE_SPST_PLUNGER_CAP_12x12mm_SMD"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SWITCH TACTILE SPST-NO 0.05A 48V")
 	(tags "Tactile Switch SPST-NO Top Actuated Surface Mount")
 	(property "Reference" "SWITCH_SPST_12x12mm_SMD"
 		(at 0 -7.2644 0)
 		(layer "F.SilkS")
-		(uuid "af43534c-7b43-4a63-9510-2ed91f9ad1dc")
+		(uuid "c9923c34-6037-47bd-b23b-cc34a96d9220")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "REF**"
 		(at 0 7.4168 0)
 		(layer "F.SilkS")
-		(uuid "e6c8340d-9c86-49f5-b81c-7c6cab98b80a")
+		(uuid "8028a694-f9cf-411a-a02d-02646214895f")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "442c1e61-42dd-4ac1-8910-77b0b7af8eb9")
+		(uuid "65b42b70-d311-43df-9105-e93e849c7863")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "784a768c-817a-4472-aeff-797e6b234ff2")
+		(uuid "02047d6c-e8d2-4cb4-a34b-d7c06173f812")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -6.096 -5.334)
 		(end -6.096 5.334)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "16f53536-6b0f-45f7-8992-1c27eb3da5c2")
+		(uuid "88d0fdf6-a939-428e-9f2c-c2628628316b")
 	)
 	(fp_line
 		(start -6.096 -5.334)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "834ad427-d045-4fac-99d8-d85c145fe815")
+		(uuid "0ae1b5ec-0454-42d1-88f7-2fc04db22cb5")
 	)
 	(fp_line
 		(start -5.08 -6.35)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "edbe7e66-05cf-49b2-acaf-7f9feccec088")
+		(uuid "e529e2bd-890f-45b8-8d71-225b3c61d413")
 	)
 	(fp_line
 		(start -5.08 6.35)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b1486119-1e36-4a40-8512-e64a81a70382")
+		(uuid "f979a18a-ccbc-4d4b-be01-5bd0bf84703a")
 	)
 	(fp_line
 		(start -5.08 6.35)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4a1f32f2-d6c9-409c-8965-b7ffd0983f55")
+		(uuid "dd03de9f-9cc7-4911-ae43-1cf3aca87099")
 	)
 	(fp_line
 		(start -4.572 -4.064)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "01c6127c-8356-4ef5-8b2c-a3a6c55f55e8")
+		(uuid "e269306b-2b0c-4c64-9428-07bb3a5d8fa8")
 	)
 	(fp_line
 		(start -4.572 -4.064)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7167b41b-19bc-4c08-b875-9ecc16e3fef4")
+		(uuid "b7c695e6-cc42-4600-b2f6-4d5d180d9128")
 	)
 	(fp_line
 		(start -4.572 4.064)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "50c498d2-dc5b-405c-808a-172aa2f93b46")
+		(uuid "08d1a87e-fc1f-438b-a256-0b1ca2460a5d")
 	)
 	(fp_line
 		(start -3.556 -5.08)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "127001e0-28c4-4e06-96ca-2c497ce3bb9d")
+		(uuid "666380d7-9eae-4f7e-8a20-496602c8f64f")
 	)
 	(fp_line
 		(start 3.302 -5.08)
@@ -150,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ba625312-4e59-4db2-998f-458a2e39a22c")
+		(uuid "e04ac010-4395-4cce-b1f5-e0f8e3761ed5")
 	)
 	(fp_line
 		(start 3.556 -5.08)
@@ -160,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6a54fe9b-9534-49c5-b73d-c2284bb78ca7")
+		(uuid "91ebc75f-db31-485f-99f3-ed1d72334f88")
 	)
 	(fp_line
 		(start 3.556 5.08)
@@ -170,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "782e2342-f3c0-41b5-8b0f-48aaa0c79c14")
+		(uuid "ef3345df-e7ea-4bb9-a1ed-a9ef127d08d7")
 	)
 	(fp_line
 		(start 4.572 4.064)
@@ -180,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "45dbe6cd-fbe6-47a7-bec7-e3b1d96f214b")
+		(uuid "4e980c04-84ac-47dc-a162-59915ddf621d")
 	)
 	(fp_line
 		(start 4.572 4.064)
@@ -190,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7a4b2234-3a89-4496-a8f2-0938647db882")
+		(uuid "d238a60b-e79e-46ff-a483-17f951114016")
 	)
 	(fp_line
 		(start 5.08 6.35)
@@ -200,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "02327ff6-5a9a-41ac-91eb-f7f2ad15e996")
+		(uuid "a8b8a907-ce97-4822-ad6e-98c34ec420d2")
 	)
 	(fp_line
 		(start 6.096 -5.334)
@@ -210,7 +211,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fe96e1d9-4f89-4562-9a04-da4eb1d7ceb0")
+		(uuid "f91ab969-0114-41c4-b136-2920e8cb9331")
 	)
 	(fp_line
 		(start 6.096 5.334)
@@ -220,7 +221,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "325b12fa-4ed5-4340-ae7b-3e21d9a64391")
+		(uuid "3807198d-fccf-4b7e-b438-14a794335efd")
 	)
 	(fp_circle
 		(center -3.048 -3.556)
@@ -231,7 +232,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "b84b6cac-124c-4bd1-ad64-5f445f5a42a1")
+		(uuid "874c7b50-8eaf-4ba6-97d2-8aad16f54822")
 	)
 	(fp_circle
 		(center -3.048 3.556)
@@ -242,7 +243,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f1d780a8-17af-43f2-8e37-28bd836e01df")
+		(uuid "bcb964f0-91a9-44f8-8020-1dd63c962de6")
 	)
 	(fp_circle
 		(center 0 0)
@@ -253,7 +254,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ebca9e86-b666-4c07-bc7e-a18488e2ac8f")
+		(uuid "463eef83-2110-4f54-b9bd-03a90701ab05")
 	)
 	(fp_circle
 		(center 3.048 -3.556)
@@ -264,7 +265,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "15b9db1f-c382-4c03-b48c-e2f47b4061fe")
+		(uuid "01d12769-16af-4918-8dcc-7adc5decd14b")
 	)
 	(fp_circle
 		(center 3.048 3.556)
@@ -275,34 +276,34 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f8796d49-0334-4c4c-ad1f-146ab53a5bdb")
+		(uuid "28bd151a-7bdc-44e8-8320-c6eb0be1bbec")
 	)
 	(pad "1" smd rect
 		(at -7.2 2.5)
 		(size 3 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "f05a47cf-7445-4107-a431-63b24d26d910")
+		(uuid "88a36bf4-d6f2-4e51-ab66-ff2abe074c06")
 	)
 	(pad "2" smd rect
 		(at 7.2 2.5)
 		(size 3 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "380d2069-35b8-4ee5-822b-c3f527e89361")
+		(uuid "2b2b8c04-1863-47a0-b786-c9c577fc7204")
 	)
 	(pad "3" smd rect
 		(at -7.2 -2.5)
 		(size 3 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "80494528-177a-4a83-bf5e-bbf4710a4851")
+		(uuid "36210194-545f-491e-9740-ccb0fd81b04e")
 	)
 	(pad "4" smd rect
 		(at 7.2 -2.5)
 		(size 3 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "1a08837d-2b4a-427a-a956-ee422459d94e")
+		(uuid "39047d55-82bb-4ebc-b9b7-564d6554351d")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Button_Switch_SMD.3dshapes/SWITCH_TACTILE_SPST_PLUNGER_CAP_12x12mm_SMD.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Button_Switch_SMD.3dshapes/SWITCH_TACTILE_SPST_PLUNGER_CAP_12x12mm_SMD.step"
 		(offset
 			(xyz 0 0 0)
 		)

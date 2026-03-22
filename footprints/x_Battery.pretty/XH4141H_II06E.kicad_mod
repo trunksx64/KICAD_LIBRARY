@@ -1,7 +1,7 @@
 (footprint "XH4141H_II06E"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "CAP 70MF 3.3V SURFACE MNT")
 	(tags "70 mF (EDLC) Supercapacitor 3.3 V Coin, Wide Terminals - Opposite Sides")
@@ -10,7 +10,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "9815f4e2-e140-4e94-ae98-5eb1c9dc77dc")
+		(uuid "79841244-75fc-4839-99f4-8799fd450198")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -23,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb4e6bca-754f-4b8b-8f67-14f549647c53")
+		(uuid "f12e224c-e4d3-4fcd-a01a-3917ecf4c884")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9424c387-8687-4066-860a-a8306c050e80")
+		(uuid "ea5c3ce7-f493-430a-b95f-bba862055c0c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05cfe8f0-bcb5-42fc-99bb-f9cc934d8a73")
+		(uuid "1e76e6a1-7fc4-4ae0-9786-247f7fc6aa7e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,6 +56,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0.762 0)
 		(end 3.175 0)
@@ -65,7 +66,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "06bd823e-7ec9-4aef-bb25-981a112dbcd1")
+		(uuid "dd2da471-c062-4875-a696-4c2002bed701")
 	)
 	(fp_circle
 		(center 0.762 0.000001)
@@ -76,7 +77,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "ead9c452-0a0b-4887-9299-366dfae54209")
+		(uuid "bc6e4730-5e0f-4a6f-a0a3-5d533017de1f")
 	)
 	(fp_line
 		(start -3.302 -1.143)
@@ -86,7 +87,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "dbbff7c5-bdce-4f8c-a06e-abf790b34d49")
+		(uuid "41c48075-f55e-424d-bd67-d6529ce5e325")
 	)
 	(fp_line
 		(start -3.302 1.320811)
@@ -96,7 +97,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "04c51ce3-f995-4305-8c57-df08b3de15bf")
+		(uuid "bc6b0cf9-cd68-49a1-83d4-981bc2d35bc2")
 	)
 	(fp_line
 		(start -1.27 -1.143)
@@ -106,7 +107,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "1d1a99bf-43aa-4b2e-9eba-dbab70535e47")
+		(uuid "11a7b039-9ca8-4d0e-9ab0-06dfa0b4ee76")
 	)
 	(fp_arc
 		(start -1.27 -1.143)
@@ -117,7 +118,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "65101ceb-ff05-406b-b71e-d82cdff1ccef")
+		(uuid "0b52789c-cde2-4dd7-ba2c-38acfae8de0a")
 	)
 	(pad "1" smd roundrect
 		(at 3.05 0 90)
@@ -125,7 +126,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "f4693289-278a-4d66-90eb-f363db233b4a")
+		(uuid "d786d37c-70f7-4d7e-827c-235e6d7b566f")
 	)
 	(pad "2" smd roundrect
 		(at -2.85 0 90)
@@ -133,10 +134,10 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "da941318-f674-454e-8151-1e43e4d293f6")
+		(uuid "132c36d1-533b-41a1-9b73-3b07cb792c73")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Battery.3dshapes/XH4141H_II06E.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Battery.3dshapes/XH4141H_II06E.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,14 +1,14 @@
 (footprint "USB_A_LP_C_ASSMANN"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "CONN PLUG USB2.0 TYPEA 4POS R/A")
 	(property "Reference" "REF**"
 		(at -4.318 -2.286 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "fecea978-1005-4274-9bac-a4235237c45e")
+		(uuid "04dae114-cb57-4629-bf51-c45931e222a5")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at -0.762 6.604 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ec311f6c-e016-4c98-b471-1bc6118d40e4")
+		(uuid "59ed25e5-07fc-4707-a688-d4a6d3b99dd1")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1a498c28-32b8-42c4-9ceb-ed56e32ceac8")
+		(uuid "a44465bd-74cd-467f-b084-a3518472f578")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1bff496e-f861-4f6d-8502-f5e4a5e73c0f")
+		(uuid "4ec6e8b2-7ee5-41b3-8f0b-6ebd148d4bbe")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.969 -1.27)
 		(end -4.191 -1.27)
@@ -61,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5ad0f2e1-eeaf-4188-a5f6-64f7db6ba1ab")
+		(uuid "d525a355-b3d5-49f6-b0dd-252e1ec54627")
 	)
 	(fp_line
 		(start -5.969 0)
@@ -71,7 +72,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ec855778-f23a-43b6-8dad-d95018e55b64")
+		(uuid "f1c6d844-fb6e-4e1a-9a04-2cd35919a376")
 	)
 	(fp_line
 		(start -5.842 3.683)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7ada670c-16b9-4730-849b-689ee96cff36")
+		(uuid "a0cde3ca-e8e2-43e1-82bd-71217a226ecd")
 	)
 	(fp_line
 		(start -5.842 20.828)
@@ -91,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "955caf23-75d6-4195-9a8b-b1f8b39f96ef")
+		(uuid "f3983e6d-0c3e-4473-8718-4a77da5c7bdd")
 	)
 	(fp_line
 		(start -5.08 3.683)
@@ -101,7 +102,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cb682a0c-87fc-4ea2-9aa1-915002ee94ec")
+		(uuid "7eb0a1a6-f9e6-4b09-806b-e0c0b118968c")
 	)
 	(fp_line
 		(start 5.842 20.828)
@@ -111,7 +112,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "54b932c9-c891-445a-a254-fcc9b2b2f981")
+		(uuid "dc0aaa81-428d-42d8-9e64-f66a377751ae")
 	)
 	(fp_line
 		(start 5.969 -1.27)
@@ -121,7 +122,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "7d89447c-f9d0-4d09-91ec-7ea055916df8")
+		(uuid "2e28074a-ccc5-43a7-b865-26a74f4b1bbc")
 	)
 	(fp_line
 		(start 5.969 0)
@@ -131,7 +132,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c2e53759-0446-4b0a-8cf7-545313bea168")
+		(uuid "cea82708-1f88-471a-bd5b-dbf4c4ad39ec")
 	)
 	(fp_circle
 		(center -2.25 2.13)
@@ -142,7 +143,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "ae66cf42-b8ad-43ae-93e2-f92a14e91806")
+		(uuid "b1f223fc-0ea5-40d5-bf98-52a60a2ff5d2")
 	)
 	(fp_circle
 		(center 2.25 2.13)
@@ -153,7 +154,7 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "b3f4d4d9-366b-4dbc-ae80-79586b684fe2")
+		(uuid "84db2c0a-a1f7-45fa-8c80-e50ba1b1edac")
 	)
 	(fp_rect
 		(start -6.223 -1.524)
@@ -164,7 +165,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "9d347883-c7e4-42ee-8484-13bba8b25f64")
+		(uuid "236b98f0-a678-4118-8e2a-2be975c13757")
 	)
 	(fp_line
 		(start -5.715 3.683)
@@ -174,7 +175,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "37e4e9cf-72ce-4e61-b302-7d733888c3e5")
+		(uuid "a194b6c2-5b5c-4101-a0db-6c110670de12")
 	)
 	(fp_rect
 		(start -6 0.889)
@@ -185,13 +186,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "bb92da9e-51e7-4fe8-8c8f-35ec7ec716b7")
+		(uuid "c194149f-e68a-4596-8a81-3408aedf3010")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.127 4.826 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "fa95b2f4-98d4-4fbe-a080-5232436fc396")
+		(uuid "f31c0ab1-0b58-4760-a978-a90a418b5617")
 		(effects
 			(font
 				(size 1 1)
@@ -205,7 +206,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a5c0a694-d076-40fd-b5ac-3f42785ec24e")
+		(uuid "57db54b7-999b-46e3-8b96-3536816f69b0")
 	)
 	(pad "2" thru_hole oval
 		(at 1 0)
@@ -213,7 +214,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "378b230e-eb42-48d0-80a8-5f24a5d3abcf")
+		(uuid "8f872716-0699-495c-afb6-1c681d73337a")
 	)
 	(pad "3" thru_hole oval
 		(at -1 0)
@@ -221,7 +222,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "450c2403-b9c2-414c-8548-6a2d9485cec1")
+		(uuid "498df022-e9cb-497b-ac5e-dc4e07759d36")
 	)
 	(pad "4" thru_hole oval
 		(at -3.5 0)
@@ -229,7 +230,7 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "75427b2a-dc7d-423d-8157-ef90821dc00d")
+		(uuid "e13f5186-f8d4-4225-9941-ba9b7d864e6e")
 	)
 	(pad "5" thru_hole roundrect
 		(at -5.85 2.13)
@@ -238,7 +239,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "55542c22-0707-49d0-87fd-51874cea11e1")
+		(uuid "4978db51-0159-4b95-9cb7-959d75d47d8f")
 	)
 	(pad "5" thru_hole roundrect
 		(at 5.85 2.13)
@@ -247,10 +248,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
-		(uuid "0b116e93-f3a7-444f-b46c-6faa68c10564")
+		(uuid "2533f005-ab0e-4e8f-a248-a311035c2223")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Connector_USB.3dshapes/USB_A_LP_C_ASSMANN_.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Connector_USB.3dshapes/USB_A_LP_C_ASSMANN.step"
 		(offset
 			(xyz 0 0 0)
 		)

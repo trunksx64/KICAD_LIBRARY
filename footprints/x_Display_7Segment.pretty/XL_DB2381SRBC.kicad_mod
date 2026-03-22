@@ -1,14 +1,14 @@
 (footprint "XL_DB2381SRBC"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "DIP,22.5X10MM LED DISPLAY")
 	(tags "SEVEN SEGMENTS")
 	(property "Reference" "REF**"
 		(at -9.2964 -5.6896 0)
 		(layer "F.SilkS")
-		(uuid "72e8fcce-5083-40f6-a91f-3bfabc7c7549")
+		(uuid "9938e0fc-874b-4bf2-923a-c779ee57703d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "XL-DB2381SRBC"
 		(at -4.9784 5.7912 0)
 		(layer "F.SilkS")
-		(uuid "1336502c-11bd-4ec2-9aca-20ce8fd7c351")
+		(uuid "5f8cc9f4-83f2-4c6f-936a-33cd334b352b")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5fcb5800-d330-4465-bee4-e111c094087a")
+		(uuid "1d75e9fc-41c4-4671-8876-6322dc522817")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e05787f9-7fc9-4a80-bd9b-0a29cc4b86ee")
+		(uuid "4c6d56e0-77c2-4e12-8390-508f5b2b440b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -11.265 -5)
 		(end 11.265 5)
@@ -61,7 +62,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bed831e7-2617-41a2-8a65-a8bc0296b404")
+		(uuid "2d8be573-072b-4a2e-9c89-45c794e0191a")
 	)
 	(fp_rect
 		(start -11.415 -5.15)
@@ -72,7 +73,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d3f14a7c-9fad-4374-a0af-bda0b49685ff")
+		(uuid "68f1b065-e4f6-418e-a3f0-b89d66b92b0f")
 	)
 	(pad "1" thru_hole roundrect
 		(at -6.35 3.81)
@@ -81,7 +82,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "fe601422-18d3-4f37-bb00-5caa5362248b")
+		(uuid "a5d88d6f-413d-4998-a21a-483d55196cf4")
 	)
 	(pad "2" thru_hole roundrect
 		(at -3.81 3.81)
@@ -90,7 +91,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "32062560-499b-44dc-9b07-a0809ef2ea64")
+		(uuid "19376ba9-7bb5-460f-bc5d-9aae07a25a12")
 	)
 	(pad "3" thru_hole roundrect
 		(at -1.27 3.81)
@@ -99,7 +100,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "ea6e2566-2683-41e4-8014-dff521dc4537")
+		(uuid "2573fec0-9e32-43b1-a8b8-4b42c40250c1")
 	)
 	(pad "4" thru_hole roundrect
 		(at 1.27 3.81)
@@ -108,7 +109,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "abc99c1d-371a-46da-9c0e-ac8fa4c77b83")
+		(uuid "6ebdc9ab-4773-4bef-9736-408b6bb3d17f")
 	)
 	(pad "5" thru_hole roundrect
 		(at 3.81 3.81)
@@ -117,7 +118,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "551a9c77-351f-46d5-a216-b0289f2b7181")
+		(uuid "91b79352-1a7d-43c6-bc78-8e9f99ad5571")
 	)
 	(pad "6" thru_hole roundrect
 		(at 6.35 3.81)
@@ -126,7 +127,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "375c7386-b2fa-41e4-9578-da51d4d7b33c")
+		(uuid "84da2860-4a27-4e62-9ad5-fce5f7ec201e")
 	)
 	(pad "7" thru_hole roundrect
 		(at 6.35 -3.81)
@@ -135,7 +136,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "570e06c8-e282-47ad-a16f-1c101653bcd2")
+		(uuid "3f37ce7f-8323-4e54-b506-34d088a3f6a4")
 	)
 	(pad "8" thru_hole roundrect
 		(at 3.81 -3.81)
@@ -144,7 +145,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "6ae5519f-a82c-423d-89f5-15a3d808e9b8")
+		(uuid "783c7858-e24d-469a-915e-26ff9e9a8080")
 	)
 	(pad "9" thru_hole roundrect
 		(at 1.27 -3.81)
@@ -153,7 +154,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "c74fc314-66d8-4de7-ba0f-a8d825b92c4d")
+		(uuid "e89436de-5155-49dc-a2d3-5af2b4832d39")
 	)
 	(pad "10" thru_hole roundrect
 		(at -1.27 -3.81)
@@ -162,7 +163,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "43d6a7dc-ede7-42a0-80b8-3bc25a5c4a75")
+		(uuid "543e3fcd-b40e-45a0-8a95-8dd27909a823")
 	)
 	(pad "11" thru_hole roundrect
 		(at -3.81 -3.81)
@@ -171,7 +172,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1666666667)
-		(uuid "7d590ff0-32de-4f01-bf4c-caa51c97e2a2")
+		(uuid "c1a43785-586a-4d6d-8602-4f0ab299be82")
 	)
 	(pad "12" thru_hole roundrect
 		(at -6.35 -3.81)
@@ -180,10 +181,10 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1640419948)
-		(uuid "0b9dfbfe-1e19-4396-b6a1-78bceb1cec64")
+		(uuid "d3e93b3f-67b2-49d2-94ab-27275de0fceb")
 	)
 	(embedded_fonts no)
-	(model "/home/xDNA/Archives/Documents/KiCad/KICAD_LIBRARY/3dmodels/x_Display_7Segment.3dshapes/XL_DB2381SRBC.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Display_7Segment.3dshapes/XL_DB2381SRBC.step"
 		(offset
 			(xyz 0 0 0)
 		)

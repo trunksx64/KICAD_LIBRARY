@@ -1,14 +1,14 @@
 (footprint "L_Bourns_SRN1060"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Bourns SRN1060 series SMD inductor https://www.bourns.com/docs/Product-Datasheets/SRN1060.pdf")
 	(tags "Bourns SRN1060 SMD inductor")
 	(property "Reference" "L2"
 		(at 0 -6.2 0)
 		(layer "F.SilkS")
-		(uuid "b46e4178-12e8-455c-a14d-979ddc1da965")
+		(uuid "ab3ad638-2064-4e4d-8aa9-4a712523bc10")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "SDR1806"
 		(at 0 6.2 0)
 		(layer "F.Fab")
-		(uuid "370b7821-636e-4f27-a8f2-d2d53fbbba42")
+		(uuid "a1abfc0a-5288-4374-ad75-be7f3b3583d5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44c3e101-59cb-4535-8152-58c7cdeb1a25")
+		(uuid "8aec7e7a-3fab-439c-9e3a-c4a339209d3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05db9a6c-8d86-45c9-8b72-915a987b690a")
+		(uuid "b4a1862a-49b9-436a-bdf5-6d53b38ef639")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5.31 -5.36)
 		(end -5.31 -3.86)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9bcc8639-3a93-4e97-82c0-ce38f6b90db8")
+		(uuid "ace30b82-e24f-4285-9045-412cd9ad009a")
 	)
 	(fp_line
 		(start -5.31 -5.36)
@@ -70,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f1d1d138-429d-427c-b704-7272437d0214")
+		(uuid "5ec872d1-df48-4cd4-99da-4f4bb4b221f6")
 	)
 	(fp_line
 		(start -5.31 5.36)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9bdc1c4a-b5e8-4104-8343-beab0b766ae2")
+		(uuid "12993fc8-25d0-4858-9a18-4717f3035bfa")
 	)
 	(fp_line
 		(start -5.31 5.36)
@@ -90,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2c7a209c-0737-4684-96db-c09c9b3ed448")
+		(uuid "8cb121a6-7af8-4306-a899-f3afdb382fe2")
 	)
 	(fp_line
 		(start 5.31 -5.36)
@@ -100,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ef0448bc-4f6c-4a2b-b2c1-bcb39e98b287")
+		(uuid "579121a8-b10e-441c-b8cd-052379527163")
 	)
 	(fp_line
 		(start 5.31 -5.36)
@@ -110,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "387bb5da-fa7e-421d-9ebe-48224515155f")
+		(uuid "27ac6987-bb4d-40ad-b0f0-71e67058909f")
 	)
 	(fp_line
 		(start 5.31 5.36)
@@ -120,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a1434e3b-aba4-410a-858d-823582b176a7")
+		(uuid "a9ea69dc-f716-477a-96ff-8da07355efdd")
 	)
 	(fp_line
 		(start 5.31 5.36)
@@ -130,7 +131,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a80e520-c5bd-402d-9b26-1a7536775a36")
+		(uuid "d16321c1-a4e3-43f5-a723-00b089049780")
 	)
 	(fp_line
 		(start -5.3 -5.35)
@@ -140,7 +141,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "55abb9fe-9cbe-43e6-ace1-61fdae65126e")
+		(uuid "2a4c4fff-9a06-473e-afcf-22bb6fcc001f")
 	)
 	(fp_line
 		(start -5.3 -5.35)
@@ -150,7 +151,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "92eb945d-261b-4129-876b-6425a392ebe4")
+		(uuid "f87f05ef-6bfb-4d1b-bd22-ba45163e16e8")
 	)
 	(fp_line
 		(start -5.3 5.35)
@@ -160,7 +161,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "90ac5f72-f06f-4c15-89d8-f0eb91bec32a")
+		(uuid "8ca3ae3a-1304-4958-8d51-cdae8392fc56")
 	)
 	(fp_line
 		(start 5.3 -5.35)
@@ -170,7 +171,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0b2c0cb9-1971-415f-8b99-11d474dae28d")
+		(uuid "1d4e61ea-f2dc-4fa7-bbdc-e427cf479cdb")
 	)
 	(fp_line
 		(start -4.9 -5)
@@ -180,7 +181,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "7af6484f-4c0f-4bb6-8c11-76d16aa0127b")
+		(uuid "8899268d-dd12-47e2-9092-70bec03ec54c")
 	)
 	(fp_line
 		(start -4.9 -5)
@@ -190,7 +191,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "5ee72b24-30a2-4ba3-ba3d-ec1cb3a2b25f")
+		(uuid "6b6bd5e7-e8b0-48a3-a1fc-e8981a431750")
 	)
 	(fp_line
 		(start -4.9 5)
@@ -200,7 +201,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "df0f39c5-ac25-4662-916a-1037e83cf195")
+		(uuid "8e8b2f8f-e09e-40e6-a08e-64d86ccd870b")
 	)
 	(fp_line
 		(start 4.9 -5)
@@ -210,12 +211,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "59005896-4816-4eaa-bcde-06df3c15d37e")
+		(uuid "f440d7e1-562a-4148-8586-323d54fabdb4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "cd3851c8-43a7-44ba-a57d-7da51bf4d405")
+		(uuid "6db17387-1b65-4df5-9987-eb3bb5b380e4")
 		(effects
 			(font
 				(size 1 1)
@@ -227,16 +228,16 @@
 		(at -3.3 0)
 		(size 3.5 10.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "b1ffd1fd-32ab-4a8c-9cb0-68c64d5846a8")
+		(uuid "a38a7ed3-59eb-4203-a5fc-089501656cc9")
 	)
 	(pad "2" smd rect
 		(at 3.3 0)
 		(size 3.5 10.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "def56ef8-2877-4427-9903-57250c5a3b07")
+		(uuid "6a07a517-e81c-4132-bfe3-2117c0812994")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/x_Inductor_SMD.3dshapes/L_Bourns_SRN1060.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/x_Inductor_SMD.3dshapes/L_Bourns_SRN1060.step"
 		(offset
 			(xyz 0 0 0)
 		)
